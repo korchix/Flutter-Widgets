@@ -10,7 +10,7 @@ A single fixed-height row that typically contains some text as well as a leading
   Text(
       '$title',
       maxLines: 2,
-      **overflow** : TextOverflow.ellipsis,
+  --> overflow : TextOverflow.ellipsis,
       style: const TextStyle(
       fontWeight: FontWeight.bold,
       ),
